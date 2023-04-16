@@ -1,38 +1,96 @@
-.App {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+ background:#443C68;
+}
+
+.text-center{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.mx-width{
+  max-width: 700px;
+  margin: auto;
+  margin-top: 15vh;
+  border: 10px solid #ccc;
+  border-radius: 10px;
+  padding: 20px 4%;
+  background: #fdfdfd;
+  box-shadow: 0 0 10px rgba(0,0,0,.7);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ul li{
+  max-width: 800px;
+  margin: auto;
+  margin-top: 2%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.text-left{
+  text-align: left;
+}
+
+.flex-jcsb{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+ul li span{
+  font-size: 20px;
+  font-weight: 600;
+  color: #443C68;
+  text-align: left !important;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.fa-rocket{
+  margin-right: 10px;
+  color: #443C68;
+}
+
+input{
+  outline: none;
+  padding: 8px 20px;
+  margin-right: 10px;
+  border:1px solid #443C68 ;
+  border-radius: 3px;
+}
+
+.text{
+  margin-top: 20px;
+}
+
+.btn{
+  color: #443C68;
+  font-weight: 600;
+  background-color: #fff;
+  padding: .5rem 2rem;
+  border:1px solid #443C68;
+  border-radius: 1rem;
+}
+
+.btn:hover{
+  cursor: pointer;
+  color: #fff;
+  background-color: #443C68;
+}
+
+.btn-update{
+  margin-right: 5px;
+}
+
+.btn-update:hover{
+  cursor: pointer;
+  color:white;
+  background-color: green;
+  border:1px solid green;
+}
+
+.fa-list{
+  margin-right: 5px;
 }
